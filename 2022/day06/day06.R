@@ -12,7 +12,7 @@ find_first_detected <- function(x, marker_type = c('packet', 'message')) {
 }
 
 # Code --------------------------------------------------------------------
-input <- readLines('input-day05.txt')
+input <- readLines('input-day06.txt')
 input_split <- strsplit(input, '')[[1]]
 packets_detected <-  embed(input_split, 4)
 messages_detected <-  embed(input_split, 14)
